@@ -172,6 +172,11 @@ class Image
         return array($actualFile, $file);
     }
 
+	
+	
+	
+	
+	
     public function save($file, $type = 'jpg', $quality = 80,$background = NULL)
     {
         if ($file) {
@@ -258,6 +263,8 @@ class Image
         $this->im->resizeImage($width, $height, $filter, $blur);
         return $this;
     }
+	
+	
 
 
 }
